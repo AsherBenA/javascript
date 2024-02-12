@@ -1,0 +1,57 @@
+@charset 'pt-BR';
+/*reset de valores*/
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+/*header*/
+header h1{
+    text-align: center;
+   
+}
+header{
+    width: 100%;
+    background-color: #474973;
+    height: 130px;
+}
+
+.nav1, .nav2, .list-imc, .list-resultado {
+    list-style-type:none;
+}
+
+.nav1 ul, .nav2 ul{
+    display: inline;
+   
+}
+.nav1 li a, .nav2 li a{
+    text-decoration: none;
+    color: white;
+}
+nav{
+    display: block;  
+    margin-top: 60px;
+}
+.menu1{
+    float: left;
+    margin-left: 30px;   
+}
+.menu1 .nav1 li{
+    display: inline;
+    padding: 10px;
+}
+.menu2{
+    float: right;
+    margin-right: 30px;   
+}
+.menu2 .nav2 li{
+    display: inline;
+    padding: 10px;
+}
+
+.balance {
+    margin-left: 37%;
+    z-index: 100000;
+    margin-top: -50px;
+}
+

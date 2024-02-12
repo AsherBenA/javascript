@@ -1,0 +1,27 @@
+/* Adicione estas regras ao seu arquivo style.css */
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+h1 {
+    order: 1; /* Coloca o h1 no topo */
+}
+
+nav {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.menu1,
+.menu2 {
+    flex-grow: 1;
+    text-align: center;
+}
+
+.balance {
+    order: 2; /* Coloca a imagem da balança abaixo do h1 */
+}
