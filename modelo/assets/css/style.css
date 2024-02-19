@@ -56,12 +56,15 @@ header h1{
 
 
 /*main*/
+body{
+    background-color: #73C1C6;
+}
 
 main{
+    background-color: white;
     max-width: 80%;
     margin: auto;
     text-align: center;
-    background-color: #73C1C6;
     margin-top: 50px;
     border-radius: 20px;
     padding: 30px;
@@ -85,7 +88,21 @@ main{
     display: inline-block;
 }
 
+.resultado-valido{
+    background-color: #73C1C6;
+}
 
+.resultado-invalido{
+    background-color: rgb(235, 50, 50);
+}
+
+.resultado{
+    margin: auto;
+    max-width: 50%;
+}
+.btn{
+    margin: 10px;
+}
 
 
 
