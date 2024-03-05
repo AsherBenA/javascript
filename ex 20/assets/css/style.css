@@ -1,0 +1,28 @@
+@charset 'pt-BR';
+/*reset de valores*/
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+/*main*/
+body{
+    background-color: #73C1C6;
+}
+
+.container{
+    background-color: white;
+    max-width: 80%;
+    margin: auto;
+    text-align: center;
+    margin-top: 50px;
+    border-radius: 20px;
+    padding: 30px;
+    height: 200px;
+}
+
+
+
+
+
+
